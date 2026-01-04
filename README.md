@@ -2,7 +2,8 @@
 
 Данная terraform конфигурация разворвачивает в Yandex Cloud 4 виртуальные машины, для создания базового кластера kubernetes в рамках гайда [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master).  
 Параметры и количество master и worker нод - можно конфигурировать через файл `terraform.tfvars`.  
-> [!warning] Выполнение данной конфигурации подразумевает наличие уже созданного аккаунта Yandex Cloud и наличие утилиты  Yandex Cloud CLI.
+> [!WARNING]
+>  Выполнение данной конфигурации подразумевает наличие уже созданного аккаунта Yandex Cloud и наличие утилиты  Yandex Cloud CLI.
 
 Перед применением конфигурации нужно создать файл `terraform.tfvars`. Содержимое файла `terraform.tfvars`:
 ```tf
